@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "msedge",
+        "request": "launch",
+        "name": "Launch Edge with Extension",
+        "url": "https://reddit.com/r/test",
+        "webRoot": "${workspaceFolder}",
+        "sourceMaps": true,
+        "trace": true,
+        "runtimeArgs": [
+          "--load-extension=${workspaceFolder}/src"
+        ]
+      }
+    ]
+  }

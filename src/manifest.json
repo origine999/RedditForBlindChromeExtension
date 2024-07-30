@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Open in RedditForBlind",
+    "version": "1.0",
+    "description": "Allows to open Reddit links in the RedditForBlind app either by replacing links or adding a new link after the Reddit link.",
+    "icons": {
+    "128": "icon128.png"
+  },
+    "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "options_page": "options.html",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "'run_at": "document_start",
+        "js": ["background.js"]
+      }
+    ]
+  }

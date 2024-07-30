@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension Settings</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Extension Settings</h1>
+    <label>
+        <input type="radio" name="linkOption" value="add" id="addLinks" checked>
+        Add "Open in RFB" links just after the Reddit link.
+      </label>
+    <label>
+      <input type="radio" name="linkOption" value="replace" id="replaceLinks">
+      Replace Reddit links to always open in RedditForBlind app.
+    </label>
+    <br>
+    
+    <br><br>
+    <button id="saveButton">Save</button>
+  </div>
+  <div id="alertContainer" role="alert" aria-live="assertive" style="display: none;"></div>
+  <script src="options.js"></script>
+</body>
+</html>
