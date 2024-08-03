@@ -35,7 +35,7 @@ if (replace) {
   // Create the new text node
   const newLink = document.createElement('a');
   newLink.href = 'redditforblind:' + href;
-newLink.textContent = `Open ${cat} in RFB ` + href;
+newLink.textContent = `Open ${cat} in RFB`;
   // Append the new link next to the original link
   link.parentNode.insertBefore(newLink, link.nextSibling);
 }

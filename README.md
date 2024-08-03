@@ -11,7 +11,7 @@ Optional: the chrome extension has a setting to replace links instead of showing
 
 
 ## Support
-Contact mailto:info@redditforblind.org
+Open a GitHub issue or contact mailto:info@redditforblind.org
 
 
 ## Contribute
